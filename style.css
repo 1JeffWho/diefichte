@@ -1,0 +1,53 @@
+body{
+    padding: 100px 0px;
+    margin: 0px;
+    background-image: url(background.png);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.podcastContainer{
+    width: 30%;
+    height: fit-content;
+    margin-left: 35%;
+    
+}
+
+.podcastContainer img{
+    width: 100%;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.447);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.447);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.podcastContainer audio{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.podcastContainer button{
+    width: calc(50% - 2px);
+    padding: 10px;
+    margin: 0px;
+    background-color: rgba(40, 40, 40, 0.818);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.podcastContainer button:hover{
+    transition: .3s;
+    color: white;
+    cursor: pointer;
+    background-color: rgba(40, 40, 40, 0.919);
+}
+
+@media(max-width: 820px){
+    .podcastContainer{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
