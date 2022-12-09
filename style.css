@@ -28,7 +28,7 @@ body{
 }
 
 .podcastContainer button{
-    width: calc(50% - 2px);
+    width: calc(100% - 2px);
     padding: 10px;
     margin: 0px;
     background-color: rgba(40, 40, 40, 0.818);
